@@ -1,0 +1,51 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Women Safety Predictor</title>
+</head>
+<body>
+    <h2>🛡️ Women Safety Risk Check</h2>
+    <form method="POST" action="/predict">
+        <label>Time of Day:</label>
+        <select name="time_of_day">
+            <option>Day</option>
+            <option>Evening</option>
+            <option>Night</option>
+        </select><br><br>
+
+        <label>Location Type:</label>
+        <select name="location_type">
+            <option>Home</option>
+            <option>Street</option>
+            <option>Market</option>
+            <option>Park</option>
+            <option>Bus Stop</option>
+            <option>Alley</option>
+            <option>Station</option>
+        </select><br><br>
+
+        <label>Crowd Density:</label>
+        <select name="crowd_density">
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+        </select><br><br>
+
+        <label>Are you alone?</label>
+        <select name="is_alone">
+            <option>Yes</option>
+            <option>No</option>
+        </select><br><br>
+
+        <label>Battery Level (%):</label>
+        <input type="number" name="battery_level" required><br><br>
+
+        <label>How do you feel?</label><br>
+        <textarea name="mood_text" rows="4" cols="50" placeholder="I feel anxious and alone..."></textarea><br><br>
+
+        <button type="submit">Check Risk Level</button>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+time_of_day,location_type,crowd_density,is_alone,battery_level,mood_text,risk_level
+Night,Street,Low,Yes,20,I feel scared and uneasy,Danger
+Day,Market,High,No,80,I’m fine, just shopping,Safe
+Evening,Bus Stop,Low,Yes,30,I’m nervous and it's quiet,Caution
+Night,Park,Medium,No,40,A bit anxious but okay,Caution
+Day,Home,High,No,100,I feel relaxed,Safe
+Night,Alley,Low,Yes,15,Feeling like someone's following me,Danger
+Evening,Street,Medium,No,50,Just walking back home,Safe
+Night,Station,Low,Yes,25,Scared, too many strangers,Danger
